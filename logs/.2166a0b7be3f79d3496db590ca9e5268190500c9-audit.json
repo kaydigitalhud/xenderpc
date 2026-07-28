@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 5
+    },
+    "auditLog": "C:\\Users\\owner\\xenderpc\\logs\\.2166a0b7be3f79d3496db590ca9e5268190500c9-audit.json",
+    "files": [
+        {
+            "date": 1770961461644,
+            "name": "C:\\Users\\owner\\xenderpc\\logs\\2026_2_12_.log",
+            "hash": "a9bbb51c4190f4e85e1f6ad54365e61bdc1488532be5109d326deb08f4bbbb98"
+        }
+    ],
+    "hashType": "sha256"
+}

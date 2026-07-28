@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #0f172A;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+nav{
+    background: #111827;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo h2{
+    color: #F59E0B;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* button */
+
+.btn{
+    display: inline-block;
+    background: #F59E0B;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background: #d97706;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(245,158,11,0.45);
+}
+
+/* hero section */
+
+header{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-text{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text p{
+    font-size: 24px;
+    color: #ddd;
+}
+
+.hero-text .btn{
+    margin-top: 30px;
+}
+
+/* services section */
+
+.services{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2{
+    color: #F59E0B;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.service-card{
+    background: #133b63;
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.3);
+    text-align: left;
+}
+
+.service-card h3{
+    color: #ffd166;
+    margin-bottom: 15px;
+}
+
+.service-card p{
+    color: #ddd;
+    line-height: 1.8;
+}
+
+.services-header{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.services-header h1{
+    font-size: 50px;
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.services-header p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.service{
+    padding: 60px 20px;
+}
+
+.service-card{
+    max-width: 900px;
+    margin: 40px auto;
+    background: #133b63;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.service-card h2{
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.service-card h3{
+    color: #FFD166;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p,
+.service-card li{
+    line-height: 1.8;
+}
+
+.service-card ul{
+    padding-left: 25px;
+}
+
+.portfolio-header{
+    text-align: center;
+    padding: 80px 20px 50px;
+}
+
+.portfolio-header h1{
+    font-size: 50px;
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.portfolio-header p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+}
+
+.portfolio-card{
+    width: 320px;
+    background: #133b63;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.portfolio-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-card h3{
+    color: #ffd166;
+    margin-bottom: 10px;
+}
+
+.portfolio-card p{
+    line-height: 1.6;
+}
+
+.contact-header{
+    text-align: center;
+    padding: 80px 20px 50px;
+}
+
+.contact-header h1{
+    font-size: 50px;
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.contact-header p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.contact{
+    max-width: 700px;
+    margin: 50px auto;
+    background: #133b63;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact h2{
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.contact .btn{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* your existing css */
+
+/* animation for service card */
+
+.service-card{
+    transition: 0.3s ease;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* animation for portfolio card */
+
+.portfolio-card{
+    transition: 0.3s ease;
+}
+
+.portfolio-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* mobile responsive */
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    nav ul li{
+        margin: 10px 0;
+    }
+
+    .hero-text h1{
+        font-size: 38px;
+    }
+
+    .hero-text p{
+        font-size: 18px;
+    }
+
+    .service-card,
+    .portfolio-card,
+    .contact{
+        width: 95%;
+        max-width: 95%;
+    }
+    .portfolio{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-gallery img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .services-header h1,
+    .portfolio-header h1,
+    .contact-header h1{
+        font-size: 38px;
+    }
+}
+
+.logo img{
+    transition: 0.3s ease;
+}
+
+.logo img:hover{
+    transform: rotate(8deg)scale(1.8);
+}
+
+.about{
+max-width: 1000px;
+margin: 80px auto;
+padding: 0 20px;
+text-align: center;
+}
+
+.about h2{
+    color: #F59E0B;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.about p{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
